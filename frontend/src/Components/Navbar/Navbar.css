@@ -1,0 +1,61 @@
+/* Overall navbar container styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333; /* Dark background */
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar title styling */
+  .navbar p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Navigation menu styling */
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between items */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu li {
+    cursor: pointer;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  /* Hover effect for menu items */
+  .nav-menu li:hover {
+    color: #f0a500; /* Highlight color */
+  }
+  
+  /* Button container styling */
+  .nav-buttons {
+    display: flex;
+    gap: 10px; /* Minimal spacing between buttons */
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #f0a500; /* Gold color */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect for buttons */
+  button:hover {
+    background-color: #cc8500; /* Darker gold */
+  }
+  
